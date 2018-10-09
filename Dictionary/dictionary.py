@@ -67,3 +67,13 @@ dictionary.keys()
 dictionary.values()
 # Results in an iterable 'dict_keys' list:
 # dict_values(['Bob', 45000, 45])
+
+# These lists cannot be acessed through a simple index call, as they are
+# special dict_values or dict_keys objects. If you'd like to print each key or
+# value, you can use a for loop like this: (using above dictionary variable)
+for key in dictionary.keys():
+    print("Key:", key)
+# Results in the follwing printing:
+# Key: Name
+# Key: Salary
+# Key: Age
