@@ -52,6 +52,14 @@ def main():
 
     for i in range(10):
         print(fibonacci(i))
+"""
+    __name__ is variable which returns name of the current module.
+    If module is running directly as a source/main program it will
+    return '__main__'.
+    If module is imported to other program or module called 'xyz.py'
+    then __name__ will return 'xyz.py' -- name of imported module.
 
+    More detail: https://stackoverflow.com/questions/419163/what-does-if-name-main-do
+"""
 if __name__=='__main__':
     main()
