@@ -1,6 +1,18 @@
 # Author: Rayudubobbili
 # Date: 11-10-2018
 
+"""
+    There is no main function in Python like other language, C, C++.
+    So main() function is no special in Python, it works same as
+    other functions. It doesn't gets called directly, automatically
+    when program loads, like other language. It only gets executed
+    if program call the function.
+
+    For simple program, let's assume function name "main" but
+    you can name it anything, as we discussed above, there is no
+    main function in Python.
+"""
+
 # Main function
 def main():
 
