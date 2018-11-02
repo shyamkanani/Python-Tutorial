@@ -13,6 +13,39 @@
     main function in Python.
 """
 
+"""
+    How to write function in Python?
+
+    def function_name(function_argument_names_if_any):
+        function_body
+
+    where,
+    'def' is a keyword for function.
+    'function_name' is name of function, you can write any name of function.
+    'functions_argument_names_if_any' are functions arguments, if function has any.
+    You don't have to write argument type, only name is enough.
+    'function_body' is body of the function, where logic of function goes.
+    It includes for/while loop, if conditional statement, print statement etc.
+    according to function logic.
+
+    Example:
+
+    def print_my_name(my_name):
+        print(my_name)
+
+
+    Here, as you can see 'print_my_name' is a function name.
+    'my_name' is argument name. Note that in python, we don't need to declare
+    argument type.
+    'print(my_name)' is function body, which will print name pass to function.
+
+    As you can observe, that in Python, we neither declare function return type
+    nor argument type.
+
+"""
+
+# Following are examples of different types of functions with different no of
+# arguments.
 # Main function
 def main():
 
