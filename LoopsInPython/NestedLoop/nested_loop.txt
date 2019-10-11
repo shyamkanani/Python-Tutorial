@@ -1,0 +1,8 @@
+Nested Loops In Python:
+
+It is the process of placing one loop in another loop that means cascading the
+loops one inside another.
+
+In python, there is no concept of '{}' to identify block. It distinguishes
+different blocks with indentation. So, in nesting indentation is very important,
+as it will identify inner loop from outer loop.
