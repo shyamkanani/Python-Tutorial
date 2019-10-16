@@ -31,6 +31,8 @@ say_hello(5)
 
 - Here we are passing argument to work with output. Now the code prints **Hello** five times.
 - Python don't add spaces at the end of strings, so we need to add them manually.
+- The special syntax \*args in function definitions in python is used to pass a variable number of arguments to a function. It is used to pass a non-keyworded, variable-length argument list.
+- The special syntax \*\*kwargs in function definitions in python is used to pass a keyworded, variable-length argument list. We use the name kwargs with the double star. The reason is because the double star allows us to pass through keyword arguments (and any number of them).
 
 #### Return data using functions
 Function can return data using return statement
@@ -41,7 +43,6 @@ def sum(a , b):
 
 total = sum(10, 20)  # Returns 30
 ```
-
 
 - Return statement return the execution to outside of function
 - If execution encounters **return** statement in function, it stops execution there and exit function. Remaining line of code can't executed
